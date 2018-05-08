@@ -69,5 +69,5 @@ javascript: (function() {
 		user_id: getCookie("trackerid")
 	});
 
-	window.open(host_sara + "/cars-sara/availability/search/" + params, '_blank');
+	window.open(host_sara + "/cars-sara/availability/search/" + site + pickup_iatatype, '_blank');
 })();
